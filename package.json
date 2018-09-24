@@ -1,0 +1,24 @@
+{
+  "name": "FabricationUIMgmt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {    
+    "distribute": "gulp distribute",
+    "test": "cd ./FabricationUI && ng test",
+    "installui": "cd ./FabricationUI && npm install",
+    "build": "cd ./FabricationUI && ng test && ng build --prod --aot",
+    "fetch": "cd ./FabricationUI && git fetch origin && git status"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "@jp6rt/utils": "^1.0.4",
+    "sb-static": "^1.0.1",
+    "sebas": "^2.1.1"
+  }
+}
