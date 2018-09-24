@@ -8,7 +8,8 @@
     "test": "cd ./FabricationUI && ng test",
     "installui": "cd ./FabricationUI && npm install",
     "build": "cd ./FabricationUI && ng test && ng build --prod --aot",
-    "fetch": "cd ./FabricationUI && git fetch origin && git status"
+    "fetch": "cd ./FabricationUI && git fetch origin && git status",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
